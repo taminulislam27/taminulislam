@@ -539,6 +539,27 @@ a.send-idea:hover {
   .mini-phone {
     display: none;
   }
+  .hero {
+    background-size: cover;
+  }
+}
+@media (max-width: 715px) {
+  .pc {
+    display: none;
+  }
+  .tablet {
+    display: flex;
+  }
+  .phone {
+    display: none;
+  }
+  .mini-phone {
+    display: none;
+  }
+  .project-card {
+    width: 315px;
+    height: 200px;
+  }
 }
 @media (max-width: 600px) {
   .pc {
@@ -570,5 +591,6 @@ a.send-idea:hover {
   }
   .hero {
     height: 80vh;
+    background-size: cover;
   }
 }
